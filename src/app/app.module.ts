@@ -11,17 +11,23 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 
 
-import { MatListModule } from "@angular/material/list"
-import {MatSidenavModule} from '@angular/material/sidenav'
+import { MatListModule } from "@angular/material/list";
+import { MatCardModule } from "@angular/material/card";
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { HomeComponent } from './views/home/home.component';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    ProductCrudComponent
   ],
   imports: [
+    MatCardModule,
     MatToolbarModule,
     BrowserModule,
     AppRoutingModule,
