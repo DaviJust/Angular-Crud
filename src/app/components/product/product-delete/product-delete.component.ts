@@ -1,17 +1,17 @@
 import { HeaderService } from './../../template/header/header.service';
-import { Product } from './../product.model';
-import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from './../product.service';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-product-update',
-  templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css']
+  selector: 'app-product-delete',
+  templateUrl: './product-delete.component.html',
+  styleUrls: ['./product-delete.component.css']
 })
-export class ProductUpdateComponent implements OnInit {
+export class ProductDeleteComponent implements OnInit {
   product: Product
-
+  
   constructor(
     private ProductService: ProductService,
     private router: Router,
@@ -19,13 +19,13 @@ export class ProductUpdateComponent implements OnInit {
     headerService: HeaderService
     ) { 
       headerService.headerData = {
-        title: 'Editar Cliente',
+        title: 'Deletar Cliente',
         icon: 'dangerous',
-        routeUrl: '/products/update'
+        routeUrl: '/products/delete'
       }
-
-
     }
+
+
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id')
@@ -33,13 +33,16 @@ export class ProductUpdateComponent implements OnInit {
       this.product = product
     })
   }
-  updateProduct(): void {
-    this.ProductService.update(this.product).subscribe(() => {
-      this.ProductService.showMessage('Produto atualizado com sucesso')
+
+
+  deleteProduct(): void  {
+    this.ProductService.delete(this.product.id).subscribe(() => {
+      this.ProductService.showMessage('Produto excluído com sucesso')
       this.router.navigate(['/products'])
     })
 
   }
+
   cancelProduct(): void {
     this.router.navigate(['/products'])
 

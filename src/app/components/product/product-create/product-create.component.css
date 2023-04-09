@@ -1,25 +1,26 @@
-mat-card{
+mat-card {
     width: 50%;
     height: 50%;
     position: center;
     margin: 0px 0px 25% 25%;
 }
+
 form {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    
+
 }
 
-mat-card-title{
+mat-card-title {
     text-align: center;
 }
 
-mat-form-field{
+mat-form-field {
     width: 99%;
- 
+
 }
 
-button{
+button {
     margin: 20px 15px 0px 0px;
 
 

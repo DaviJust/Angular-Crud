@@ -1,15 +1,16 @@
 table {
-    width: 100% 
+    width: 100%
 }
 
-edit{
+edit {
     margin-right: 10px;
+    
 }
 
-i.edit > i{
-    color: #f1ff28
-}
+i.edit{
+    color: #a8e0fa
+}   
 
-i.delete > i{
-    color: #db0000
+i.delete {
+    color: #80ec7c
 }
