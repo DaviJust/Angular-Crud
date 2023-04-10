@@ -21,7 +21,7 @@ export class ProductService {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top",
-      panelClass: isError ? ["msgsuccess"] : ["msgerror"],
+      panelClass: isError ? ["msg-error"] : ["msg-success"],
     });
   }
   create(product: Product): Observable<Product> {
