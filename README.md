@@ -5,7 +5,8 @@ Esse projeto contém um frontend em Angular e uma API REST em Express (backend) 
 
 ## Mostrando o site
 <a href="https://loom.com/share/6f92c97cd2814e09badd0658aed8fa5f" target="_blank"> Site
-   <img src="https://www.loom.com/share/6f92c97cd2814e09badd0658aed8fa5f?start_download=true" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> 
+   <img src="![Captura de tela 2023-04-25 164149](https://user-images.githubusercontent.com/112717111/234385672-d8fc7b3c-de55-458a-bbea-e65d588b5d03.png)
+" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /> 
 </a>
 
 ## Instruções
