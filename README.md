@@ -1,1 +1,1 @@
-Sistema de cadastro usando Angular
+Sistema de cadastro(CRUD) usando Angular
