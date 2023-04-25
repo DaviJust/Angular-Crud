@@ -4,10 +4,10 @@ Sistema de cadastro(CRUD) usando Angular
 Esse projeto contém um frontend em Angular e uma API REST em Express (backend) para demonstrar um aplicativo CRUD (Create, Read, Update, Delete) básico.
 
 # Mostrando o site
-<a href="https://loom.com/share/6f92c97cd2814e09badd0658aed8fa5f" target="_blank">
+<a href="https://www.loom.com/share/0e4cf48cac104719a3d4c554d8e9b5ff" target="_blank">
    <div align="center">
    <p>Só clicar na imagem ou nesse link</p>
-   <img href="https://loom.com/share/6f92c97cd2814e09badd0658aed8fa5f" src="https://user-images.githubusercontent.com/112717111/234385937-bba28af6-e304-41a4-af9a-765195c49785.png" alt="angularCrudVideo" width="720" height="405" border="10" />
+   <img href="https://www.loom.com/share/0e4cf48cac104719a3d4c554d8e9b5ff" src="https://user-images.githubusercontent.com/112717111/234389701-8a4eb76f-1a36-487e-a734-9681787e4f18.png" alt="angularCrudVideo" width="720" height="405" border="10" />
    </div>
   </a>
 
