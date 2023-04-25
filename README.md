@@ -1,7 +1,8 @@
 Sistema de cadastro(CRUD) usando Angular
 
 <h1>Para inciar:</h1>
-<li>Frontend:<li>
+
+<li>Frontend<li>
 <ul>Abra o terminal do vs code e use "npm i" para instalar as depêndencias</ul>
 <ul>Após isso dê npm start para inciar o projeto</ul>
 
