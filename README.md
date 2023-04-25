@@ -1,17 +1,17 @@
 Sistema de cadastro(CRUD) usando Angular
 
-<h1>Para inciar:</h1>
-
- 
-
 # Projeto Angular CRUD
 Esse projeto contém um frontend em Angular e uma API REST em Express (backend) para demonstrar um aplicativo CRUD (Create, Read, Update, Delete) básico.
+
+## Mostrando o site
+https://user-images.githubusercontent.com/112717111/234384998-5e9f0cc2-92cd-4588-94dd-6ffcb4b58dd9.mp4
+
 ## Instruções
-1. Clone este repositório
+
+Clone este repositório
 bash
 git clone https://github.com/yourusername/angular-crud.git
-2. Instale as dependências
-bash
+
 
 # Instale as dependências do frontend
 npm install
