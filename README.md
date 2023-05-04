@@ -1,27 +1,48 @@
-# Frontend
+Sistema de cadastro(CRUD) usando Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+# Projeto Angular CRUD
+Esse projeto contém um frontend em Angular e uma API REST em Express (backend) para demonstrar um aplicativo CRUD (Create, Read, Update, Delete) básico.
 
-## Development server
+# Mostrando o site
+<a href="https://loom.com/share/6f92c97cd2814e09badd0658aed8fa5f" target="_blank">
+   <div align="center">
+   <p>Só clicar na imagem</p>
+   <img href="https://loom.com/share/6f92c97cd2814e09badd0658aed8fa5f" src="https://user-images.githubusercontent.com/112717111/234385937-bba28af6-e304-41a4-af9a-765195c49785.png" alt="angularCrudVideo" width="720" height="405" border="10" />
+   </div>
+</a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instruções
 
-## Code scaffolding
+Clone este repositório
+bash
+git clone https://github.com/yourusername/angular-crud.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Instale as dependências do frontend
+npm install
+# Navegue até a pasta de backend e instale as dependências
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Na pasta frontend
+npm start
+Isso iniciára a página na porta 4200
 
-## Running unit tests
+# Na pasta backend
+npm start
+Isso iniciará a API na porta 3001.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Estrutura
+- ./src contém os arquivos fonte do frontend Angular
+- ./backend contém os arquivos da API Rest em Express
+- As solicitações do frontend para o backend são encaminhadas através de proxy.conf.json
+## Rotas da API
+As rotas da API incluem:
+- GET /products
+- GET /products/:id
+- POST /products
+- PUT /products/:id
+- DELETE /products/:id
+## Construído com
+- [Angular](https://angular.io/) - Framework frontend
+- [Express](https://expressjs.com/) - Framework backend
+- [Node.js](https://nodejs.org/) - Ambiente de execução JavaScript
